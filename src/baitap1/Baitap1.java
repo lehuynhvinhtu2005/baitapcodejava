@@ -6,7 +6,7 @@ public class Baitap1 {
         Scanner keyboard = new Scanner(System.in);
         int a = keyboard.nextInt();
         int b = keyboard.nextInt();
-        System.out.println("Tong 2 so a va b la: " + a+b);
+        System.out.println("Tong 2 so a va b la: " + (a+b));
         System.out.println("Hieu 2 so a va b la: " + (a-b));
         System.out.println("Tich 2 so a va b la: " + a*b);
         if(b!=0){
